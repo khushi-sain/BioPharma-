@@ -1,0 +1,20 @@
+PS C:\xampp\htdocs\onlinepharmacy> netstat -an | findstr :80
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+  TCP    [::]:80                [::]:0                 LISTENING
+  TCP    [::1]:80               [::1]:51400            TIME_WAIT
+  TCP    [::1]:80               [::1]:51958            TIME_WAIT
+  TCP    [::1]:80               [::1]:53009            TIME_WAIT
+  TCP    [::1]:80               [::1]:58058            TIME_WAIT
+  TCP    [::1]:80               [::1]:58955            TIME_WAIT
+  TCP    [::1]:80               [::1]:59150            TIME_WAIT
+  TCP    [::1]:80               [::1]:62093            TIME_WAIT
+  TCP    [::1]:80               [::1]:63672            TIME_WAIT
+  TCP    [::1]:80               [::1]:65139            TIME_WAIT
+PS C:\xampp\htdocs\onlinepharmacy> tasklist /fi "imagename eq httpd.exe"
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+httpd.exe                    19324 Console                    1     24,512 K
+httpd.exe                    19944 Console                    1     95,460 K
+PS C:\xampp\htdocs\onlinepharmacy> start http://localhost/onlinepharmacy/index.php
+PS C:\xampp\htdocs\onlinepharmacy>
