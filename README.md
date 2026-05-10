@@ -40,7 +40,3 @@ An interactive and robust full-stack web application designed to digitize the ph
 
 
 ## ⚙️ Installation & Setup
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/yourusername/pharmacy-management-system.git](https://github.com/yourusername/pharmacy-management-system.git)
